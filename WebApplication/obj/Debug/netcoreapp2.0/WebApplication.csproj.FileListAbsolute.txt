@@ -1,0 +1,11 @@
+C:\Users\hari.dileepkumar\Source\Repos\WebApplication\WebApplication\bin\Debug\netcoreapp2.0\WebApplication.deps.json
+C:\Users\hari.dileepkumar\Source\Repos\WebApplication\WebApplication\bin\Debug\netcoreapp2.0\WebApplication.runtimeconfig.json
+C:\Users\hari.dileepkumar\Source\Repos\WebApplication\WebApplication\bin\Debug\netcoreapp2.0\WebApplication.runtimeconfig.dev.json
+C:\Users\hari.dileepkumar\Source\Repos\WebApplication\WebApplication\bin\Debug\netcoreapp2.0\WebApplication.dll
+C:\Users\hari.dileepkumar\Source\Repos\WebApplication\WebApplication\bin\Debug\netcoreapp2.0\WebApplication.pdb
+C:\Users\hari.dileepkumar\Source\Repos\WebApplication\WebApplication\obj\Debug\netcoreapp2.0\WebApplication.csprojAssemblyReference.cache
+C:\Users\hari.dileepkumar\Source\Repos\WebApplication\WebApplication\obj\Debug\netcoreapp2.0\WebApplication.csproj.CoreCompileInputs.cache
+C:\Users\hari.dileepkumar\Source\Repos\WebApplication\WebApplication\obj\Debug\netcoreapp2.0\WebApplication.AssemblyInfoInputs.cache
+C:\Users\hari.dileepkumar\Source\Repos\WebApplication\WebApplication\obj\Debug\netcoreapp2.0\WebApplication.AssemblyInfo.cs
+C:\Users\hari.dileepkumar\Source\Repos\WebApplication\WebApplication\obj\Debug\netcoreapp2.0\WebApplication.dll
+C:\Users\hari.dileepkumar\Source\Repos\WebApplication\WebApplication\obj\Debug\netcoreapp2.0\WebApplication.pdb
