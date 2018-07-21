@@ -8,60 +8,54 @@ using WebApplication.Models;
 
 namespace WebApplication.Controllers
 {
-  
     [Route("api/Event")]
     public class EventController : Controller
     {
         public List<EventModel> Events { get; set; } = new List<EventModel>()
+        {
+            new EventModel()
             {
-                new EventModel()
-        {
-                    Id = 1,
-                    Name = "TT",
-                    Category = "Non technical",
-                    Venue = "Hall"
-                },
-                new EventModel()
-        {
-                    Id = 2,
-                    Name = "Quiz",
-                   Category = "Technical",
-                    Venue = "Base Camp"
-                }
-    };
-        // GET: api/Events
+                Id = 1,
+                Name = "TT",
+                Category = "Non technical",
+                Venue = "Hall"
+            },
+            new EventModel()
+            {
+                Id = 2,
+                Name = "Quiz",
+                Category = "Technical",
+                Venue = "Base Camp"
+            }
+        };
+        // GET: api/Event
         [HttpGet]
         public IActionResult Get()
         {
-            return Ok(Events);
+             return Ok(Events);
         }
-
         // GET: api/Events/5
         [HttpGet("{id}", Name = "Get")]
         public IActionResult Get(int id)
         {
-            var events = Events.FirstOrDefault(e => e.Id == id);
-            if (events != null)
+             var events = Events.FirstOrDefault(e => e.Id == id);
+             if (events != null)
                 return Ok(events);
-            else
+             else
                 return NotFound();
         }
-
         // POST: api/Events
         [HttpPost]
-        public IActionResult Post(EventModel employee)
+        public IActionResult Post(EventModel events)
         {
-            Events.Add(employee);
-
-            return Ok(Events);
+             Events.Add(events);
+             return Ok(events);
         }
-
         // PUT: api/Events/5
         [HttpPut("{id}")]
         public void Put(int id, [FromBody] string value)
         {
         }
-
         // DELETE: api/ApiWithActions/5
         [HttpDelete("{id}")]
         public void Delete(int id)
